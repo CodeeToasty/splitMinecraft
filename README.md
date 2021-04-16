@@ -6,7 +6,7 @@ Space between pillars is marked as #, the pillars as @ and the external bounds a
 <h2>Usage</h2> 
     python3 splitMinecraft.py blocks_to_split
 
-<h2>output example</h2>
+<h2>Output Example</h2>
     splitMinecraft.py 19 <br>
     feasable solutions: <br>
     3 L###@###@###@###@###L <br>
