@@ -7,7 +7,7 @@ def drawSolution(length, step, pillars):
 	while True:
 		for j in range(step):
 			print("#", end='')
-		if i==pillars:
+		if i == pillars:
 			break
 		print("@",end='')
 		i+=1
@@ -26,9 +26,11 @@ def checkSplit(length, step, p):
 
 def main(argv):
 	total=int(sys.argv[1])
-	
+	if total<=0:
+		print("ahah negative length very funny")
+		return 1
 	print("feasable solutions: ")
-	for step in range(2, int(total+1)):
+	for step in range(1, int(total+1)):
 		supp_total=total
 		pillars=0
 		test,pillars = checkSplit(supp_total,step,pillars)
