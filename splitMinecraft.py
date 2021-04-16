@@ -7,7 +7,7 @@ def drawSolution(length, step, pillars):
 	while True:
 		for j in range(step):
 			print("#", end='')
-		if i == pillars:
+		if i==pillars:
 			break
 		print("@",end='')
 		i+=1
