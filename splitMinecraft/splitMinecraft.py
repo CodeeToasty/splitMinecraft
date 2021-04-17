@@ -31,18 +31,6 @@ def realDraw(supp_total,step,pillars,y_increment):
 
 	return y_increment+1
 
-def drawSolution(length, step, pillars):
-	i=0
-	print("L", end='')
-	while True:
-		for j in range(step):
-			print("#", end='')
-		if i == pillars:
-			break
-		print("@",end='')
-		i+=1
-	print("L")
-
 def checkSplit(length, step, p):
 	while True:
 		length-=step
