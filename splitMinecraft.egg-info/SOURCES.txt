@@ -1,8 +1,0 @@
-README.md
-setup.py
-splitMinecraft/splitMinecraft.py
-splitMinecraft.egg-info/PKG-INFO
-splitMinecraft.egg-info/SOURCES.txt
-splitMinecraft.egg-info/dependency_links.txt
-splitMinecraft.egg-info/requires.txt
-splitMinecraft.egg-info/top_level.txt
