@@ -56,7 +56,7 @@ def main(argv):
 		test,pillars = checkSplit(supp_total,step,pillars)
 		if test==True:
 			y_increment=realDraw(supp_total,step,pillars,y_increment)
-	playsound('bruhsound.mp3')
+	playsound('./bruhsound.mp3')
 	plt.title('Feasable Solutions')
 	plt.axis('off')
 	plt.show()
