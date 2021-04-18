@@ -7,5 +7,5 @@ setup(
    author='Daniele Toschi',
    author_email='tosted94@gmail.com',
    packages=['splitMinecraft'],
-   install_requires=['numpy', 'matplotlib']
+   install_requires=['numpy', 'matplotlib', 'playsound']
 )
