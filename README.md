@@ -10,6 +10,6 @@ In the output the first number for every row tells you the space between pillars
     python splitMinecraft.py blocks_to_split
     
 <h2>Credits</h2>
-    Me for the code
+    Me for the code <br>
     twitch.tv/shadowstone for the motivation :D
 
