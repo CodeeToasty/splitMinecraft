@@ -32,6 +32,9 @@ def realDraw(supp_total,step,pillars,y_increment):
 			markerfacecolor='red',markeredgewidth=1,markeredgecolor='black')
 	return y_increment+1
 
+# Checks if the split is possible
+# If so returns True and number of pillars for
+# drawing.
 def checkSplit(length, step, p):
 	while True:
 		length-=step
